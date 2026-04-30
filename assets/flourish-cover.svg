@@ -1,0 +1,64 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Flourish Studio Cover</title>
+  <desc id="desc">Editorial product storefront cover with soft cards, planner pages, and premium digital product branding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="0" x2="1080" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAF6EF"/>
+      <stop offset="1" stop-color="#EEE4D1"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1A14"/>
+      <stop offset="1" stop-color="#3A3227"/>
+    </linearGradient>
+    <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C17A5A"/>
+      <stop offset="1" stop-color="#E6A47B"/>
+    </linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A9E7E"/>
+      <stop offset="1" stop-color="#99B89B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#43382A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1026" cy="104" r="184" fill="#DCCBAE" fill-opacity="0.55"/>
+  <circle cx="112" cy="532" r="220" fill="#D4C5AA" fill-opacity="0.35"/>
+  <path d="M-40 482C198 398 436 394 646 440C878 490 1078 466 1248 390" stroke="#C17A5A" stroke-opacity="0.2" stroke-width="4"/>
+
+  <g filter="url(#shadow)">
+    <rect x="88" y="92" width="494" height="446" rx="36" fill="#FFFFFF"/>
+    <rect x="118" y="122" width="170" height="18" rx="9" fill="#7A9E7E"/>
+    <text x="118" y="210" fill="url(#ink)" font-family="Playfair Display, Georgia, serif" font-size="68" font-weight="700">Flourish Studio</text>
+    <text x="118" y="258" fill="#574B3E" font-family="DM Sans, Arial, sans-serif" font-size="26">Digital downloads that convert.</text>
+    <text x="118" y="306" fill="#7B6F61" font-family="DM Sans, Arial, sans-serif" font-size="20">Journals, planners, trackers, and self-improvement tools.</text>
+    <rect x="118" y="350" width="210" height="52" rx="26" fill="url(#clay)"/>
+    <text x="148" y="383" fill="#FFFFFF" font-family="DM Sans, Arial, sans-serif" font-size="19" font-weight="700">Shop the collection</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="682" y="110" width="168" height="250" rx="28" fill="#1E1A14"/>
+    <rect x="708" y="138" width="116" height="14" rx="7" fill="#E9DAC2"/>
+    <rect x="708" y="166" width="94" height="14" rx="7" fill="#E9DAC2" fill-opacity="0.72"/>
+    <rect x="708" y="210" width="112" height="84" rx="18" fill="#2C271F"/>
+    <text x="730" y="257" fill="#FAF6EF" font-family="DM Sans, Arial, sans-serif" font-size="22" font-weight="700">2026</text>
+    <text x="730" y="283" fill="#CBBBA0" font-family="DM Sans, Arial, sans-serif" font-size="16">planner</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="868" y="164" width="248" height="196" rx="28" fill="#FFFFFF"/>
+    <rect x="898" y="194" width="74" height="74" rx="22" fill="url(#sage)"/>
+    <text x="898" y="302" fill="#1E1A14" font-family="DM Sans, Arial, sans-serif" font-size="20" font-weight="700">Habit Tracker</text>
+    <text x="898" y="330" fill="#77695B" font-family="DM Sans, Arial, sans-serif" font-size="16">Printable pages</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="730" y="394" width="386" height="134" rx="28" fill="#FFFFFF"/>
+    <rect x="760" y="424" width="100" height="16" rx="8" fill="#C17A5A"/>
+    <rect x="760" y="454" width="280" height="12" rx="6" fill="#E6D9C8"/>
+    <rect x="760" y="478" width="240" height="12" rx="6" fill="#E6D9C8"/>
+    <rect x="760" y="502" width="170" height="12" rx="6" fill="#E6D9C8"/>
+  </g>
+</svg>

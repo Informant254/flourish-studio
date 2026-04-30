@@ -1,5 +1,7 @@
 # Flourish Studio
 
+![Flourish Studio cover](assets/flourish-cover.svg)
+
 Digital product storefront for journals, planners, and self-improvement downloads.
 
 This repo is a clean, single-file landing page built with HTML, CSS, and vanilla JavaScript. It is designed to be easy to customize, fast to deploy, and strong enough to share as a portfolio piece or product demo.
