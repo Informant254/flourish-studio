@@ -41,9 +41,9 @@ cd flourish-studio
 ### Before Deploying
 
 1. **Update Payment Links**
-   - Find all instances of `selar.com/77xxsqp113`
-   - Replace with YOUR Selar product links
-   - Test the links work!
+   - Find the `CHECKOUT_URL` constant in `index.html`
+   - Replace it with your Selar, Gumroad, or Payhip product link
+   - Test the checkout flow on mobile and desktop
 
 2. **Add Your Products**
    - Update product names
@@ -52,8 +52,8 @@ cd flourish-studio
    - Add/remove products as needed
 
 3. **Update Testimonials**
-   - Replace fake reviews with real ones (after you get sales)
-   - Keep at least 1-2 testimonials visible
+   - Replace the placeholder trust cards with real customer quotes once you have them
+   - Keep at least 1-2 cards visible
 
 4. **Customize Colors** (Optional)
    - Find `:root { }` in the CSS

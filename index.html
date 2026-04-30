@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Flourish Studio — Digital Products for a Better Life</title>
+<title>Flourish Studio | Digital Downloads That Convert</title>
+<meta name="description" content="Flourish Studio is a premium, mobile-first storefront for journals, planners, and self-improvement downloads. Built with HTML, CSS, and JavaScript." />
+<meta name="theme-color" content="#1E1A14" />
+<meta property="og:title" content="Flourish Studio | Digital Downloads That Convert" />
+<meta property="og:description" content="A polished digital product storefront for journals, planners, templates, and self-improvement downloads." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://frabjous-frangipane-42c58d.netlify.app/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Flourish Studio | Digital Downloads That Convert" />
+<meta name="twitter:description" content="A polished digital product storefront for journals, planners, templates, and self-improvement downloads." />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -401,8 +410,8 @@
 <section class="hero">
   <div class="hero-text">
     <span class="hero-badge">✦ Digital Downloads · Instant Access</span>
-    <h1>Design your <em>best life,</em> one download at a time.</h1>
-    <p>Beautiful, practical digital tools for people who want to grow — planners, workbooks, and trackers that actually make a difference.</p>
+    <h1>Sell your <em>digital products</em> with a store people trust.</h1>
+    <p>Beautiful, practical digital tools for people who want to grow. This storefront is built to look premium, load fast, and make checkout obvious.</p>
     <div class="hero-actions">
       <a href="#products" class="btn-primary">Browse the Store →</a>
       <a href="#how" class="btn-secondary">See how it works <span>↓</span></a>
@@ -434,10 +443,10 @@
 
 <!-- STATS -->
 <div class="stats">
-  <div class="stat"><div class="stat-num">2,400+</div><div class="stat-label">Happy customers</div></div>
-  <div class="stat"><div class="stat-num">18</div><div class="stat-label">Digital products</div></div>
-  <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Average rating</div></div>
-  <div class="stat"><div class="stat-num">Instant</div><div class="stat-label">Download delivery</div></div>
+  <div class="stat"><div class="stat-num">1 file</div><div class="stat-label">Simple to deploy</div></div>
+  <div class="stat"><div class="stat-num">Mobile</div><div class="stat-label">First by design</div></div>
+  <div class="stat"><div class="stat-num">SEO</div><div class="stat-label">Ready to share</div></div>
+  <div class="stat"><div class="stat-num">Fast</div><div class="stat-label">No backend needed</div></div>
 </div>
 
 <!-- PRODUCTS -->
@@ -457,7 +466,7 @@
       <p>Everything you need to organise your year: daily + weekly + monthly planners, habit tracker, goal workbook, reflection journal, and morning routine guide. 120+ beautifully designed pages.</p>
       <div class="product-footer">
         <div class="product-price">$47</div>
-        <a href="https://selar.com/77xxsqp113" target="_blank" style="text-decoration:none;"><button class="buy-btn">Get the Bundle →</button></a>
+        <button class="buy-btn" onclick="openCheckout()">Get the Bundle →</button>
       </div>
     </div>
 
@@ -468,7 +477,7 @@
       <p>A guided system to set, plan, and crush your goals in 90 days. With weekly check-ins and reflection prompts.</p>
       <div class="product-footer">
         <div class="product-price">$27</div>
-        <button class="buy-btn" onclick="addToCart('90-Day Goal Workbook', 27)">Buy Now</button>
+        <button class="buy-btn" onclick="openCheckout('90-Day Goal Workbook')">Buy Now</button>
       </div>
     </div>
 
@@ -479,7 +488,7 @@
       <p>30 gorgeous habit tracking pages. Daily, weekly, and monthly layouts. Print as many times as you like.</p>
       <div class="product-footer">
         <div class="product-price">$9</div>
-        <button class="buy-btn" onclick="addToCart('Habit Tracker Pack', 9)">Buy Now</button>
+        <button class="buy-btn" onclick="openCheckout('Habit Tracker Pack')">Buy Now</button>
       </div>
     </div>
 
@@ -491,7 +500,7 @@
       <p>A full year of thoughtful prompts for self-discovery, gratitude, growth, and clarity. Works as PDF or digital journal.</p>
       <div class="product-footer">
         <div class="product-price">$15</div>
-        <button class="buy-btn" onclick="addToCart('365 Journal Prompts', 15)">Buy Now</button>
+        <button class="buy-btn" onclick="openCheckout('365 Journal Prompts')">Buy Now</button>
       </div>
     </div>
 
@@ -502,7 +511,7 @@
       <p>Build a morning you love. Includes routine templates, tracker, reflection cards, and a guide to sticking with it.</p>
       <div class="product-footer">
         <div class="product-price">$12</div>
-        <button class="buy-btn" onclick="addToCart('Morning Routine Kit', 12)">Buy Now</button>
+        <button class="buy-btn" onclick="openCheckout('Morning Routine Kit')">Buy Now</button>
       </div>
     </div>
 
@@ -513,7 +522,7 @@
       <p>Take control of your money with this simple, beautiful budgeting system. Savings tracker, bill calendar & more.</p>
       <div class="product-footer">
         <div class="product-price">$11</div>
-        <button class="buy-btn" onclick="addToCart('Budget Planner', 11)">Buy Now</button>
+        <button class="buy-btn" onclick="openCheckout('Budget Planner')">Buy Now</button>
       </div>
     </div>
 
@@ -535,7 +544,7 @@
     <div class="step">
       <div class="step-num">2</div>
       <h3>Secure Checkout</h3>
-      <p>Pay safely via Gumroad. Your purchase is protected and your info stays private.</p>
+      <p>Send buyers to Selar, Gumroad, or any checkout flow you already use. Keep the purchase path short.</p>
     </div>
     <div class="step">
       <div class="step-num">3</div>
@@ -548,32 +557,32 @@
 <!-- TESTIMONIALS -->
 <section class="testimonials" id="love">
   <div class="section-header">
-    <span class="section-tag">✦ Customer Love</span>
-    <h2>People are <em>thriving</em></h2>
+    <span class="section-tag">✦ Why It Works</span>
+    <h2>Built to earn <em>trust</em></h2>
   </div>
   <div class="testimonials-grid">
     <div class="testimonial">
       <div class="stars">★★★★★</div>
-      <p>"I've tried so many planners and nothing clicked until this one. The layout is gorgeous and I actually use it every day now."</p>
+      <p>"The layout is clear, premium, and easy to scan on mobile. That makes the products feel worth buying."</p>
       <div class="reviewer">
         <div class="reviewer-avatar">👩🏽</div>
-        <div><div class="reviewer-name">Amara K.</div><div class="reviewer-handle">Life Planner Bundle</div></div>
+        <div><div class="reviewer-name">Mobile-first design</div><div class="reviewer-handle">Fast to browse</div></div>
       </div>
     </div>
     <div class="testimonial">
       <div class="stars">★★★★★</div>
-      <p>"The 90-Day Workbook completely changed how I set goals. I finished it in January and hit all three of my big targets by March."</p>
+      <p>"The product cards are short, specific, and action-oriented. That helps people understand the offer without extra friction."</p>
       <div class="reviewer">
         <div class="reviewer-avatar">👨🏻</div>
-        <div><div class="reviewer-name">James T.</div><div class="reviewer-handle">90-Day Goal Workbook</div></div>
+        <div><div class="reviewer-name">Clear product copy</div><div class="reviewer-handle">Better click-through</div></div>
       </div>
     </div>
     <div class="testimonial">
       <div class="stars">★★★★★</div>
-      <p>"Instantly downloaded, instantly loved. The journal prompts are so thoughtful — I look forward to mornings again!"</p>
+      <p>"The page feels like a real storefront rather than a template, which makes it easier to share and easier to remember."</p>
       <div class="reviewer">
         <div class="reviewer-avatar">🧕🏾</div>
-        <div><div class="reviewer-name">Fatima R.</div><div class="reviewer-handle">365 Journal Prompts</div></div>
+        <div><div class="reviewer-name">Strong brand feel</div><div class="reviewer-handle">Portfolio-friendly</div></div>
       </div>
     </div>
   </div>
@@ -582,7 +591,7 @@
 <!-- EMAIL CAPTURE -->
 <section class="email-section">
   <h2>Get <em>free goodies</em> in your inbox</h2>
-  <p>Join 3,200+ subscribers for free templates, productivity tips, and early access to new products.</p>
+  <p>Collect emails for templates, launch notes, and early access to new products. Replace this with your own mailing list tool when you are ready.</p>
   <div class="email-form">
     <input type="email" placeholder="your@email.com" id="emailInput"/>
     <button onclick="subscribeEmail()">Yes, I'm in!</button>
@@ -593,30 +602,37 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Flourish<span>Studio</span></div>
-  <div>© 2026 FlourishStudio · All digital products are for personal use only.</div>
+  <div>© 2026 Flourish Studio · Digital products for personal use unless stated otherwise.</div>
   <div style="display:flex;gap:1.5rem;">
-    <a href="#" style="color:var(--muted);text-decoration:none;">Privacy</a>
-    <a href="#" style="color:var(--muted);text-decoration:none;">Terms</a>
-    <a href="#" style="color:var(--muted);text-decoration:none;">Contact</a>
+    <a href="#products" style="color:var(--muted);text-decoration:none;">Products</a>
+    <a href="#love" style="color:var(--muted);text-decoration:none;">Why it works</a>
+    <a href="https://github.com/Informant254" target="_blank" style="color:var(--muted);text-decoration:none;">GitHub</a>
   </div>
 </footer>
 
 <div class="toast" id="toast"></div>
 
 <script>
+  const CHECKOUT_URL = 'https://selar.com/77xxsqp113';
+
   function showToast(msg) {
     const t = document.getElementById('toast');
     t.textContent = msg;
     t.classList.add('show');
     setTimeout(() => t.classList.remove('show'), 3000);
   }
-  function addToCart(name, price) {
-    showToast(`✓ "${name}" added — linking to checkout!`);
+  function openCheckout(name) {
+    if (name) {
+      showToast(`✓ "${name}" opening checkout`);
+    } else {
+      showToast('✓ Opening checkout');
+    }
+    window.open(CHECKOUT_URL, '_blank', 'noopener,noreferrer');
   }
   function subscribeEmail() {
     const val = document.getElementById('emailInput').value;
     if (!val || !val.includes('@')) { showToast('Please enter a valid email 💌'); return; }
-    showToast('🎉 You\'re in! Check your inbox for a welcome gift.');
+    showToast('🎉 You are in. Connect this form to your email tool next.');
     document.getElementById('emailInput').value = '';
   }
 
