@@ -5,9 +5,9 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-C17A5A?style=flat-square&logo=netlify&logoColor=white)](https://frabjous-frangipane-42c58d.netlify.app/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/Informant254/flourish-studio/graphs/commit-activity)
 
-**A high-conversion, digital product storefront template designed for journals, planners, and self-improvement creators.**
+**A high-conversion, digital product storefront template designed for journals, planners, and self-improvement creators, now with **AI-powered SEO optimization**.**
 
-![Flourish Studio cover](assets/flourish-cover.svg)
+![Flourish Studio cover](assets/flourish-cover-ai.png)
 
 ---
 
@@ -20,6 +20,8 @@ Flourish Studio is a clean, single-file storefront built with **HTML5, CSS3, and
 ---
 
 ## ✨ Why It Stands Out
+
+- **🧠 AI-Powered SEO**: Generate compelling product descriptions and SEO-optimized titles in seconds, boosting discoverability and conversions.
 
 - **💎 Polished Editorial Design**: Move beyond generic store templates with a layout that feels like a premium brand.
 - **📱 Mobile-First Excellence**: Fully responsive design that feels intentional on both mobile and desktop.
@@ -45,6 +47,7 @@ Flourish Studio is a clean, single-file storefront built with **HTML5, CSS3, and
 ---
 
 ## 📦 What's Included
+- [x] AI Product Description & SEO Generator
 
 - [x] Premium Hero Section
 - [x] Dynamic Product Grid
